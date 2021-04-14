@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* color: rgb(0, 182, 30); */
+  min-height: 100vh;
 }
 
 p {
