@@ -16,6 +16,7 @@ let randomNumber = Math.floor(Math.random() * 100) + 1; // create a random numbe
 
 guessSubmit.addEventListener("click", setParameters);
 
+guessField.focus();
 function setParameters() {
   let userGuess = Number(guessField.value); // stores whatever value is found on the class of guessField
 

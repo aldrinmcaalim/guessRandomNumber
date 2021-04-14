@@ -24,3 +24,4 @@ This took me about 2 hours to complete.
    - You can't use common array methods like `push()`, `pop()`, `slice()`, or `join()` directly, in order to do that you must convert the NodeList using the `Array.from()` method.
 7. The `forEach`, which is a method, can be used if you need to loop through items in an array.
    - Using `forEach` means you probably don't need to manipulate what you're looping through.
+8. Small tweak with using `.focus()`. By placing whatever input you're trying to target at the top with `.focus()`, it allows for a better user experience by showing what the user should be interacting with.
